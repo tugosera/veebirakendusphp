@@ -36,7 +36,7 @@ nav {
     top: 0;
     width: 100%;
     display: flex;
-    background-color: #000;
+    background-color: blueviolet;
     color: #FFF;
     z-index: 1000;
     align-items: center;
@@ -111,7 +111,7 @@ nav li:hover .dropdown {
 
 /* Footer Styles */
 footer {
-    background-color: #000;
+    background-color: blueviolet;
     color: #FFF;
     margin-top: auto;
     width: 100%;
@@ -145,5 +145,11 @@ footer {
 
     footer {
         font-size: clamp(1rem, 1.125rem, 3vw);
+    }
+    header{}
+    div#kodu{
+        padding: 2%;
+        border: solid 1pt darkviolet;
+
     }
 }

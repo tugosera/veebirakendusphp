@@ -1,6 +1,6 @@
 <footer>
     <?php
-        echo "&copy Vladislav Kudriašev ";
+        echo "&copy Erik Gerega ";
         echo date('Y/m/d');
     ?>
 </footer>

@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div>
-    <?php
-        include("nav.php");
-    ?>
-</div>
-</header>
-<h1>PHP tunnitööd</h1>
+
+<?php
+    include("nav.php");
+?>
+
+
+<?php
+include("header.php");
+?>
+
+
 <section>
     <?php
     if (isset($_GET["leht"])) {
