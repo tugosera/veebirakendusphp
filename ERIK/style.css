@@ -1,13 +1,4 @@
-/* Font declaration for later use */
-@font-face {
-    font-family: 'CaskaydiaCove Nerd Font Regular';
-    src: url('CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
-}
 
-@font-face {
-    font-family: 'CaskaydiaCove Nerd Font Bold';
-    src: url('CaskaydiaCoveNerdFont-Bold.ttf') format('truetype');
-}
 
 /* Base Styles */
 html,
@@ -83,7 +74,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #404040;
+    background-color: darkblue;
 }
 
 .dropdown {
@@ -148,8 +139,14 @@ footer {
     }
     header{}
     div#kodu{
+        width: 50%;
         padding: 2%;
         border: solid 1pt darkviolet;
-
     }
+
+}
+div#kuupaev{
+    width: 50%;
+    padding: 2%;
+    border: solid 1pt black;
 }
